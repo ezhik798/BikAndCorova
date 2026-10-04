@@ -1,0 +1,12 @@
+
+
+#file proecta vremenue
+*.o
+*.obj
+*.exe
+bin/
+obj/
+
+#codeblocks
+*.layout
+*.depend
