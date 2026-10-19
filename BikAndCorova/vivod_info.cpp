@@ -31,6 +31,9 @@ bool proverit_vvod(const std::string& popytka){
         if (ok && unikalnye.size()!=4){
             ok = false;
         }
+        if (ok && popytka[0]=='0'){
+            ok = false;
+        }
     }
 
     if (!ok){
